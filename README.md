@@ -1,12 +1,12 @@
 # meta_dag_workflow
 We generate fully reproducible synthetic DAG workloads for heterogeneous scene and avatar tasks, where each DAG enforces acyclic connectivity, contains one mandatory scene node, and nodes carry multi-dimensional attributes sampled from predefined ranges, with topology and density controlled via deterministic seeding.
 
-**Project Overview**
+# **Project Overview**
 
 This project provides **a DAG workflow dataset for metaverse/virtual scene tasks** and **a Python DAG parser**.
 The dataset can be used for task offloading, scheduling algorithms, and resource optimization research. The parser converts **_.gv_** DAG files into actionable task objects and dependency matrices, facilitating simulation and algorithm development.
 
-**Dataset Description**
+# **Dataset Description**
 The dataset contains synthetic, fully reproducible DAG workflows covering heterogeneous Scene and Avatar tasks.
 
 (i) DAG attributes:
@@ -34,7 +34,7 @@ A total of 2,500 DAGs are included, all fully reproducible.
 
 
 
-**DAG Parser Description**
+# **DAG Parser Description**
 The project provides a Python parser **_offloading_parser.py_** to parse _**.gv**_ DAG files into task objects and dependency matrices.
 
 Features
@@ -64,7 +64,7 @@ Features
 
 
 
-**Quick Start Guide**
+# **Quick Start Guide**
 The following example demonstrates parsing a DAG file in two steps and viewing basic information:
 
 % 1. Import the parser
@@ -93,5 +93,5 @@ print(node_features[:2])  # First two nodes
   You can access node list, dependency matrix, node/edge features
   Directly usable for scheduling algorithms, reinforcement learning models, or resource simulation 
 
-**Citation**
+# **Citation**
 If you use this dataset or parser in your research or project, please cite the GitHub repository link.
