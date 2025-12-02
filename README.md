@@ -93,17 +93,5 @@ print(node_features[:2])  # First two nodes
   You can access node list, dependency matrix, node/edge features
   Directly usable for scheduling algorithms, reinforcement learning models, or resource simulation 
 
-  meta_dag_workflow/
-│
-├─ meta_node_20/               # Dataset (20 nodes)
-│   ├─ offload20_1/
-│   │   ├─ 20.1.0.gv
-│   │   └─ graph/
-│   │       └─ 20_1_0.png
-│   └─ ...
-├─ meta_node_40/               # Dataset (40 nodes)
-├─ offloading_parser.py        # DAG parser
-└─ README.md                   # Project description
-
 **Citation**
 If you use this dataset or parser in your research or project, please cite the GitHub repository link.
