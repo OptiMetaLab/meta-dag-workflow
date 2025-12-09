@@ -1,4 +1,4 @@
-# meta_dag_workflow
+# meta-dag-workflow
 We generate fully reproducible synthetic DAG workloads for heterogeneous scene and avatar tasks, where each DAG enforces acyclic connectivity, contains one mandatory scene node, and nodes carry multi-dimensional attributes sampled from predefined ranges, with topology and density controlled via deterministic seeding.
 
 This project provides **a DAG workflow dataset for metaverse/virtual scene tasks** and **a Python DAG parser**.
